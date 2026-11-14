@@ -19,6 +19,13 @@ A Python implementation of **Markov Decision Process (MDP)** planning algorithms
   * Compares convergence runtime between Value Iteration and Policy Iteration across grid sizes from $10 \times 10$ to $100 \times 100$.
   * Validates theoretical $V(s)$ values against 300-episode Monte Carlo rollouts.
 
+## Requirements
+
+* **Python:** 3.8 – 3.14+
+* **Libraries:**
+  * `pygame` (for Python 3.8 – 3.13) **or** `pygame-ce` (recommended for Python 3.14+ / Apple Silicon)[cite: 3]
+  * `matplotlib` (for generating runtime and Monte Carlo benchmark charts)[cite: 1]
+
 ## Project Structure
 
 ```text
